@@ -1,0 +1,108 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fdfcf7;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 30px;
+  color: #4b3621; /* choco */
+}
+
+.app-container {
+  background: #f8f5f0;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(75, 54, 33, 0.2);
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #6b8e23; /* matcha */
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input, form button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+
+#todo-input {
+  flex: 2;
+  border: 1px solid #d9cab3;
+}
+
+#date-input {
+  flex: 1;
+  border: 1px solid #d9cab3;
+}
+
+form button {
+  background: #a9745b; /* soft choco */
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+form button:hover {
+  background: #6b4226; /* darker choco */
+}
+
+.filter-container {
+  margin-bottom: 15px;
+}
+
+#filter-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d9cab3;
+  border-radius: 8px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #d8e4c0; /* pastel matcha */
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li span {
+  display: block;
+}
+
+ul li small {
+  color: #555;
+  font-size: 12px;
+}
+
+.delete-btn {
+  background: #c77c59; /* choco-orange */
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.delete-btn:hover {
+  background: #6b4226;
+}
